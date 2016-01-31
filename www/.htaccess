@@ -1,0 +1,12 @@
+RewriteEngine on
+#
+## Don't show directory listings for URLs which map to a directory.
+Options -Indexes
+
+## Follow symbolic links in this directory.
+Options +FollowSymLinks
+
+# do clean URL and if is file show file
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+RewriteRule ^ index.php [L]
