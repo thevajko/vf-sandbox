@@ -1,5 +1,5 @@
 {
-  "name": "vajkotools/websandbox",
+  "name": "the-vajko/vf-sandbox",
   "description": "Vajko framework example web application",
   "homepage": "http://vajko.kst.fri.uniza.sk",
   "license": ["CC-BY-NC-SA 4.0"],
@@ -16,6 +16,7 @@
     }
   ],
   "require": {
-    "php": ">=5.5.0"
+    "php": ">=5.5.0",
+    "the-vajko/vf-lib-core" : ""
   }
 }
