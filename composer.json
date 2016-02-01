@@ -18,5 +18,8 @@
   "require": {
     "php": ">=5.5.0",
     "the-vajko/vf-lib-core" : "@dev"
-  }
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable" : true
 }
