@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "the-vajko/vf-lib-core" : "@dev"
+    "the-vajko/vf-lib-core" : "dev-master"
   },
 
   "minimum-stability": "dev",
