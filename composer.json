@@ -13,7 +13,7 @@
   ],
   "require": {
     "php": ">=5.5.0",
-    "thevajko/vf-core" : "^1.0"
+    "thevajko/vf-core" : "dev"
   },
 
   "minimum-stability": "dev"
