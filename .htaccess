@@ -1,0 +1,4 @@
+RewriteEngine on
+
+#just redirect call into folder "www"
+RewriteRule ^(.*)$ www/$1

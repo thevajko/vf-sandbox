@@ -1,0 +1,20 @@
+{
+  "name": "thevajko/vf-sandbox",
+  "type": "project",
+  "description": "Vajko framework example web application",
+  "homepage": "http://vajko.kst.fri.uniza.sk",
+  "license": ["CC-BY-NC-SA 4.0"],
+  "authors": [
+    {
+      "name": "Matej Meško",
+      "role": "Developer",
+      "email": "meshosk@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "thevajko/vf-core" : "^1.0"
+  },
+
+  "minimum-stability": "dev"
+}
