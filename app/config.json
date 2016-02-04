@@ -4,14 +4,14 @@
   "www" : {
       "defaultControlClass"   : "app\\controls\\PageControl", // default controller class with namespace
       "defaultTemplate"       : "html.view.php", // default template file
-      "errorClass"            : "vajko\\core\\errorHandler\\DefaultErrorHandlerControl", // default controller class with name space for error handling
+      "errorClass"            : "thevajko\\vf\\core\\errorHandler\\DefaultErrorHandlerControl", // default controller class with name space for error handling
       "debugMode"             : true, // set output of error handler. If true debug should show complete information of error. If set to false, then only 404 page should be showed
 
       "bootSequence"  : {
           // this array contains classes to be loaded be booter
           // each class must contains name
-          "router"  : "vajko\\core\\DefaultRouter",
-          "render" : "vajko\\core\\Render"
+          "router"  : "thevajko\\vf\\core\\DefaultRouter",
+          "render" : "thevajko\\vf\\core\\Render"
       }
   }
 }
