@@ -1,11 +1,10 @@
 # Vajko framework example application
 
-
-
 This is example application which demonstate application of [Vajko framework](https://github.com/thevajko/vf-core).
 
 This famework is used to demostrate web applicaiton based on MVC architecture. It is designed as educational resource,
-therefore whole solution is very simple and minimaslistic. Framework is using own auto-class loading, which is
+therefore whole solution is very simple and minimaslistic. Framework is using own class loading, router and templates. Whole 
+application pars are written in PHP and fullty traceable. More information can be found in wiki
 
 ## Installing
 
